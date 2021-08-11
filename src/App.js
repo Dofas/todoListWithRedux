@@ -12,7 +12,7 @@ function App() {
       <div className="posts">
         <div className="syncPosts">
           <h3>Синхронні пости</h3>
-          <Posts posts = {[1,2,3]} />
+          <Posts />
         </div>
         <div className="asyncPosts">
           <h3>Асинхронні пости</h3>

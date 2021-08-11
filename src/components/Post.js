@@ -4,7 +4,7 @@ const Post = ({post}) =>{
     return(
         <div>
             <h4>
-                {post}
+                {post.title}
             </h4>
         </div>
     )
