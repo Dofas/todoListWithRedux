@@ -2,9 +2,14 @@ import "./App.css";
 import FetchedPosts from "./components/FetchedPosts";
 import PostForm from "./components/PostForm";
 import Posts from "./components/Posts";
+import React from 'react';
+
+
 
 function App() {
+  console.log(React.version);
   return (
+    
     <div className="App">
       <div className="addForm">
         <PostForm />
